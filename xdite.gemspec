@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name        = 'xdite'
   s.version     = Xdite::VERSION
   s.licenses    = ['MIT']
-  s.summary     = 'Prints famouse quotes.'
-  s.description = 'Prints famouse quotes.'
+  s.summary     = 'Prints famous quotes.'
+  s.description = 'Prints famous quotes.'
   s.authors     = ['Tony Jian']
   s.email       = 'tonytonyjan@gmail.com'
   s.files       = Dir['lib/**/*.{rb,txt}']
