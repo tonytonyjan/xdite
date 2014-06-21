@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'xdite/cli'
+Xdite::Cli.start(ARGV)
