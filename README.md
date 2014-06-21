@@ -1,0 +1,6 @@
+Installation
+============
+
+```
+gem install xdite
+```
