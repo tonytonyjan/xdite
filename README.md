@@ -21,6 +21,6 @@ Commands:
 References
 ==========
 
-- [http://xdite-joke.tumblr.com/](I love xdite)
-- [http://slot.miario.com/machines/83899](大神語錄)
-- [http://slot.miario.com/machines/83900](吵架王)
+- [I love xdite](http://xdite-joke.tumblr.com/)
+- [大神語錄](http://slot.miario.com/machines/83899)
+- [吵架王](http://slot.miario.com/machines/83900)
