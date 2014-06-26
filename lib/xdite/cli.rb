@@ -20,7 +20,7 @@ module Xdite
       puts Xdite.paragraph(number, per_paragraph)
     end
 
-    desc 'version', 'prints version'
+    desc 'version', 'Prints version'
     def version
       puts Xdite::VERSION
     end
