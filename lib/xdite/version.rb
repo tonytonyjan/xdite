@@ -1,3 +1,3 @@
 module Xdite
-  VERSION = '1.2.5'
+  VERSION = '1.3.5'
 end
