@@ -1,13 +1,18 @@
 module Xdite
   class << self
+    # inline
     def says n = 1
-      quotes.sample(n).join
+      quotes.sample(n.to_i).join($/)
     end
-    alias_method :sentence, :says
+
+    # per line
+    def sentence n = 1
+      quotes.sample(n.to_i).join
+    end
 
     def paragraph n = 3, per_paragraph = 3
       ret = []
-      n.times{ret << sentence(per_paragraph)}
+      n.to_i.times{ret << sentence(per_paragraph.to_i)}
       ret.join("\n\n")
     end
 
