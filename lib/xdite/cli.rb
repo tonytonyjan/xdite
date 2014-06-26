@@ -10,6 +10,11 @@ module Xdite
       puts Xdite.says
     end
 
+    desc 'paragraph', 'prints a paragraph'
+    def paragraph
+      puts Xdite.paragraph
+    end
+
     desc 'version', 'prints version'
     def version
       puts Xdite::VERSION

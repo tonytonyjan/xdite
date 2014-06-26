@@ -14,6 +14,7 @@ Commands
 $ xdite help
 Commands:
   xdite help [COMMAND]  # Describe available commands or one specific command
+  xdite paragraph       # prints a paragraph
   xdite says            # prints a famous quote
   xdite version         # prints version
 ```
