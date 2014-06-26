@@ -20,10 +20,11 @@ A new command `xdite` was added, enjoy!
 
 $ xdite help
 Commands:
-  xdite help [COMMAND]  # Describe available commands or one specific command
-  xdite paragraph       # prints a paragraph
-  xdite says            # prints a famous quote
-  xdite version         # prints version
+  xdite help [COMMAND]                  # Describe available commands or one specific command
+  xdite paragraph [NUMBER] [SENTENCES]  # Prints paragraphs
+  xdite says [NUMBER]                   # Prints famous quotes. (Default task)
+  xdite sentence [NUMBER]               # Prints famous quotes inline.
+  xdite version                         # Prints version
 
 ============================================
 EOS
