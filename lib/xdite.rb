@@ -20,6 +20,12 @@ module Xdite
       "別人變造我的講法還甚至發明我沒講過的話。那我到底要對這些內容去道歉什麼？"
     end
 
+    def debate
+      ret = []
+      (rand(96) + 5).times{ ret << ['z', 'Z', '...'].sample }
+      ret.join
+    end
+
     def quotes
       @quotes ||= File.readlines(File.expand_path('../xdite/quotes.txt', __FILE__)).map &:strip
     end

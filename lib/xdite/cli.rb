@@ -25,6 +25,10 @@ module Xdite
       puts Xdite.apologize
     end
 
+    desc 'debate', 'Ask xdite to debate'
+    def debate
+      puts Xdite.debate
+    end
 
     desc 'version', 'Prints version'
     def version
