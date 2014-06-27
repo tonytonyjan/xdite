@@ -10,7 +10,7 @@ module Xdite
       puts Xdite.says(number)
     end
 
-    desc 'sentence [NUMBER]', 'Prints famous quotes inline.'
+    desc 'sentence [NUMBER]', 'Prints famous quotes inline'
     def sentence number = 1
       puts Xdite.sentence(number)
     end
@@ -20,7 +20,7 @@ module Xdite
       puts Xdite.paragraph(number, per_paragraph)
     end
 
-    desc 'apologize', 'Prints apology'
+    desc 'apologize', 'Ask xdite to apologize'
     def apologize
       puts Xdite.apologize
     end
