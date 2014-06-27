@@ -27,7 +27,7 @@ module Xdite
     end
 
     def quotes
-      @quotes ||= File.readlines(File.expand_path('../xdite/quotes.txt', __FILE__)).map &:strip
+      @quotes ||= File.readlines(File.expand_path('../xdite/quotes.txt', __FILE__)).map(&:strip)
     end
   end
 end
