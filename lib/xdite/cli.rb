@@ -20,7 +20,7 @@ module Xdite
       puts Xdite.paragraph(number, per_paragraph)
     end
 
-    desc 'aplogize', 'Prints apology'
+    desc 'apologize', 'Prints apology'
     def apologize
       puts Xdite.apologize
     end
