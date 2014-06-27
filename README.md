@@ -17,6 +17,7 @@ Commands:
   xdite paragraph [NUMBER] [SENTENCES]  # Prints paragraphs
   xdite says [NUMBER]                   # Prints famous quotes. (Default task)
   xdite sentence [NUMBER]               # Prints famous quotes inline.
+  xdite apologize
   xdite version                         # Prints version
 ```
 

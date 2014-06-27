@@ -20,6 +20,12 @@ module Xdite
       puts Xdite.paragraph(number, per_paragraph)
     end
 
+    desc 'aplogize', 'Prints apology'
+    def apologize
+      puts Xdite.apologize
+    end
+
+
     desc 'version', 'Prints version'
     def version
       puts Xdite::VERSION
