@@ -20,6 +20,7 @@ A new command `xdite` was added, enjoy!
 
 $ xdite help
 Commands:
+  xdite apologize                       # Prints apology
   xdite help [COMMAND]                  # Describe available commands or one specific command
   xdite paragraph [NUMBER] [SENTENCES]  # Prints paragraphs
   xdite says [NUMBER]                   # Prints famous quotes. (Default task)

@@ -13,11 +13,11 @@ Commands
 ```
 $ xdite help
 Commands:
+  xdite apologize                       # Prints apology
   xdite help [COMMAND]                  # Describe available commands or one specific command
   xdite paragraph [NUMBER] [SENTENCES]  # Prints paragraphs
   xdite says [NUMBER]                   # Prints famous quotes. (Default task)
   xdite sentence [NUMBER]               # Prints famous quotes inline.
-  xdite apologize
   xdite version                         # Prints version
 ```
 
