@@ -15,7 +15,7 @@ module Xdite
       puts Xdite.sentence(number)
     end
 
-    desc 'paragraph [NUMBER] [SENTENCES]', 'Prints paragraphs'
+    desc 'paragraph [NUMBER] [SENTENCE_NUMBER]', 'Prints paragraphs'
     def paragraph number = 1, per_paragraph = 5
       puts Xdite.paragraph(number, per_paragraph)
     end
