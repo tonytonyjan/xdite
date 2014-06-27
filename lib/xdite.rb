@@ -1,11 +1,11 @@
 module Xdite
   class << self
-    # inline
+    # per line
     def says n = 1
       quotes.sample(n.to_i).join($/)
     end
 
-    # per line
+    # inline
     def sentence n = 1
       quotes.sample(n.to_i).join
     end
