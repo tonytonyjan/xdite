@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
   s.executables = 'xdite'
   s.homepage    = 'https://github.com/tonytonyjan/xdite'
   s.add_runtime_dependency 'thor'
+  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
   s.post_install_message = <<EOS
 ============================================
 Thanks for installing!
