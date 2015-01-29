@@ -1,3 +1,4 @@
+# encoding: utf-8
 module Xdite
   class << self
     # per line
