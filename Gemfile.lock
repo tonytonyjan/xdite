@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xdite (1.5.0)
+    xdite (1.5.1)
       thor
 
 GEM
@@ -31,3 +31,6 @@ DEPENDENCIES
   rake
   rspec
   xdite!
+
+BUNDLED WITH
+   1.13.1
